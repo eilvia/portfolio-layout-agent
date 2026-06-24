@@ -38,7 +38,31 @@ COMPONENTS_DB = {
             "example_value": {"email": "hong@gmail.com", "github": {"label": "GitHub", "url": "...", "target": "_blank"}, "blog": {"label": "Blog", "url": "...", "target": "_blank"}, "notion": None}
         },
         {"id": "text", "name": "TextBlock", "category": "template", "desc": "자유 서술용 설명 영역"},
-        {"id": "image", "name": "ImageBlock", "category": "template", "desc": "대표 이미지/배너"}
+        {"id": "image", "name": "ImageBlock", "category": "template", "desc": "대표 이미지/배너"},
+        {
+            "id": "paper", "name": "PaperBlock", "category": "template", "desc": "대학원/CV용 읽은 논문 정리 영역",
+            "example_value": {"title": "...", "authors": "...", "venue": "...", "year": "2024", "topic": "...", "summary": "...", "takeaway": "...", "followUpQuestion": "...", "link": {"label": "Paper", "url": "https://...", "target": "_blank"}}
+        },
+        {
+            "id": "gallery", "name": "GalleryBlock", "category": "template", "desc": "디자이너용 작업물 이미지를 크게 보여주는 갤러리/캐러셀 영역",
+            "example_value": {"title": "...", "description": "...", "images": ["https://...", "https://..."], "alt": "...", "caption": "..."}
+        },
+        {
+            "id": "troubleshooting", "name": "TroubleshootingBlock", "category": "template", "desc": "개발자용 문제-원인-해결-결과 정리 영역",
+            "example_value": {"title": "...", "context": "...", "problem": "...", "cause": "...", "solution": "...", "result": "..."}
+        },
+        {
+            "id": "process", "name": "ProcessBlock", "category": "template", "desc": "디자이너/기획자용 리서치-방향-실행-결과 작업 과정 정리 영역",
+            "example_value": {"title": "...", "overview": "...", "research": "...", "direction": "...", "execution": "...", "outcome": "..."}
+        },
+        {
+            "id": "architecture", "name": "ArchitectureBlock", "category": "template", "desc": "개발자용 서비스 구조, 프론트엔드/백엔드/DB/배포 구성 설명 영역",
+            "example_value": {"title": "...", "summary": "...", "frontend": "...", "backend": "...", "database": "...", "deployment": "...", "diagramImage": "https://..."}
+        },
+        {
+            "id": "metric", "name": "MetricBlock", "category": "template", "desc": "성과, 수치, 개선 결과를 강조해 보여주는 영역",
+            "example_value": {"title": "...", "value": "32%", "label": "작업 시간 단축", "description": "...", "evidence": "..."}
+        }
     ]
 }
 
